@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Today's searchers are tomorrow's tourists", "Today's searchers are tomorrow's tourists\Today's searchers are tomorrow's tourists.pyproj", "{4ADE3015-587C-4B0F-A872-C9BB61D33039}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ADE3015-587C-4B0F-A872-C9BB61D33039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADE3015-587C-4B0F-A872-C9BB61D33039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D075F174-8035-4BE4-B47B-8A7A5EA3ED7D}
+	EndGlobalSection
+EndGlobal
