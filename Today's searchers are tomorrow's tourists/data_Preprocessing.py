@@ -31,8 +31,8 @@ def tourist_number_trend_diff():
 
 #自相关和偏自相关图，需要保存后再查看
 def ACF_PACF():
-    acf = plot_acf(ARIMA_build_data_tourist_number).savefig(r'Data/ACF-ARIMA_build_data_tourist_number.png')
-    pacf = plot_pacf(ARIMA_build_data_tourist_number).savefig(r'Data/PACF-ARIMA_build_data_tourist_number.png')
+    acf = plot_acf(ARIMA_build_data_tourist_number_diff).savefig(r'Data/Pictures/ACF-ARIMA_build_data_tourist_number_diff.png')
+    pacf = plot_pacf(ARIMA_build_data_tourist_number_diff).savefig(r'Data/Pictures/PACF-ARIMA_build_data_tourist_number_diff.png')
 
 if __name__ == '__main__':
     ACF_PACF()

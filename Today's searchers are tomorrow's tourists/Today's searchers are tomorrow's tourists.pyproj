@@ -26,10 +26,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\ARIMA build data.xls" />
-    <Content Include="Data\ARIMA test data.xls" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="data preprocessing.py">
+    <Compile Include="ARIMA Predict.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_Preprocessing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_Classify.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
